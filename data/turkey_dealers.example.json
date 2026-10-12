@@ -1,0 +1,11 @@
+{
+  "recipients": [
+    {
+      "to": "purchasing@example.com",
+      "company": "Example Distributor",
+      "focus": "Your industrial supply activities"
+    }
+  ],
+  "subject": "Example cooperation inquiry",
+  "body_template": "Dear {company},\n\n{focus}\n\n{sig}"
+}

@@ -1,0 +1,10 @@
+{
+  "_description": "Non-secret adapter parameter example; external collection is disabled by default.",
+  "country_keys": [
+    "united_states",
+    "germany"
+  ],
+  "keywords": [
+    "example industrial supply"
+  ]
+}

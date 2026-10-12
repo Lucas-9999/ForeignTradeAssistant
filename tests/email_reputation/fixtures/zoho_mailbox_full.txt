@@ -1,0 +1,4 @@
+Final-Recipient: rfc822; buyer@example.com
+Action: failed
+Status: 5.2.2
+Diagnostic-Code: smtp; 552 5.2.2 Mailbox full

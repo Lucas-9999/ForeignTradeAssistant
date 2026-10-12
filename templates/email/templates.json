@@ -1,0 +1,253 @@
+{
+  "_description": "Synthetic portfolio template library; all business content is fictional.",
+  "_variables": {
+    "company_name": "Lead's company name",
+    "contact_name": "Contact person name",
+    "country": "Lead's country",
+    "industry": "Lead's industry label",
+    "industry_group": "Mapped industry group (automotive, machinery, ...)",
+    "industry_insight": "Per-industry insight paragraph (used by followup_02)",
+    "greeting": "Localized greeting (from segments.json)",
+    "signoff": "Localized sign-off (from segments.json)",
+    "region_name": "Country group label (from segments.json)",
+    "sender_name": "Our sender name (from config)",
+    "sender_company": "Our company name",
+    "signature": "Pre-built plain-text signature block",
+    "current_date": "Today's date"
+  },
+  "_best_practices": {
+    "length": "50-125 words for highest reply rate",
+    "format": "Plain text outperforms HTML for cold outreach",
+    "framework": "Context -> Problem -> Proof -> Offer -> Opt-out",
+    "subject": "8 words or fewer, specific + curiosity-driven",
+    "cta": "Low-friction (reply catalog / send a part number for a quote)",
+    "claims": "Six-stage inspection, material + dimensional reports per batch, 24-48h quotes, drawing + sample support, after-sales replacement, ISO9001:2015 + IATF16949, M1.6-M64, grades 8.8-12.9, eco-certified finishes, factory-direct"
+  },
+  "templates": [
+    {
+      "id": "general_auto_quality_01",
+      "name": "首封 · 汽车 · 质量与认证",
+      "category": "general",
+      "industry_group": "automotive",
+      "variant": "quality",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the quality angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_auto_service_02",
+      "name": "首封 · 汽车 · 服务与售后",
+      "category": "general",
+      "industry_group": "automotive",
+      "variant": "service",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the service angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_auto_engineering_03",
+      "name": "首封 · 汽车 · 定制与DFM",
+      "category": "general",
+      "industry_group": "automotive",
+      "variant": "engineering",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the engineering angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_machinery_quality_01",
+      "name": "首封 · 机械 · 质量与检验",
+      "category": "general",
+      "industry_group": "machinery",
+      "variant": "quality",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the quality angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_machinery_service_02",
+      "name": "首封 · 机械 · 服务与响应",
+      "category": "general",
+      "industry_group": "machinery",
+      "variant": "service",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the service angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_machinery_engineering_03",
+      "name": "首封 · 机械 · 非标件专家",
+      "category": "general",
+      "industry_group": "machinery",
+      "variant": "engineering",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the engineering angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_construction_quality_01",
+      "name": "首封 · 建筑 · 质量与合规",
+      "category": "general",
+      "industry_group": "construction",
+      "variant": "quality",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the quality angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_construction_service_02",
+      "name": "首封 · 建筑 · 服务与供货",
+      "category": "general",
+      "industry_group": "construction",
+      "variant": "service",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the service angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_construction_engineering_03",
+      "name": "首封 · 建筑 · 定制与结构件",
+      "category": "general",
+      "industry_group": "construction",
+      "variant": "engineering",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the engineering angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_electronics_quality_01",
+      "name": "首封 · 电子 · 精密与一致性",
+      "category": "general",
+      "industry_group": "electronics",
+      "variant": "quality",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the quality angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_electronics_service_02",
+      "name": "首封 · 电子 · 服务与可靠性",
+      "category": "general",
+      "industry_group": "electronics",
+      "variant": "service",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the service angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_electronics_engineering_03",
+      "name": "首封 · 电子 · 微型精密件",
+      "category": "general",
+      "industry_group": "electronics",
+      "variant": "engineering",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the engineering angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_newenergy_quality_01",
+      "name": "首封 · 新能源 · 防腐与认证",
+      "category": "general",
+      "industry_group": "new_energy",
+      "variant": "quality",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the quality angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_newenergy_service_02",
+      "name": "首封 · 新能源 · 服务与支持",
+      "category": "general",
+      "industry_group": "new_energy",
+      "variant": "service",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the service angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_medical_quality_01",
+      "name": "首封 · 医疗 · 精密与可追溯",
+      "category": "general",
+      "industry_group": "medical",
+      "variant": "quality",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the quality angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_medical_service_02",
+      "name": "首封 · 医疗 · 服务与文档",
+      "category": "general",
+      "industry_group": "medical",
+      "variant": "service",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the service angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_hardware_quality_01",
+      "name": "首封 · 五金贸易 · 品质产品线",
+      "category": "general",
+      "industry_group": "hardware_furniture",
+      "variant": "quality",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the quality angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_hardware_service_02",
+      "name": "首封 · 五金贸易 · 现货与发货",
+      "category": "general",
+      "industry_group": "hardware_furniture",
+      "variant": "service",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the service angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_general_quality_01",
+      "name": "首封 · 通用 · 质量与认证",
+      "category": "general",
+      "industry_group": "general",
+      "variant": "quality",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the quality angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "general_general_service_02",
+      "name": "首封 · 通用 · 服务与响应",
+      "category": "general",
+      "industry_group": "general",
+      "variant": "service",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the service angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "custom_dfm_01",
+      "name": "定制 · 免费DFM评审",
+      "category": "custom",
+      "industry_group": "general",
+      "variant": "engineering",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the engineering angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "custom_specialist_01",
+      "name": "定制 · 难找非标件专家",
+      "category": "custom",
+      "industry_group": "general",
+      "variant": "engineering",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the engineering angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "followup_01",
+      "name": "跟进 · 温和跟进与目录",
+      "category": "followup",
+      "industry_group": "general",
+      "variant": "catalog",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the catalog angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "followup_02",
+      "name": "跟进 · 行业洞察",
+      "category": "followup",
+      "industry_group": "general",
+      "variant": "insight",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the insight angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    },
+    {
+      "id": "followup_03",
+      "name": "跟进 · 最后联系",
+      "category": "followup",
+      "industry_group": "general",
+      "variant": "final",
+      "subject": "Synthetic workflow preview",
+      "body": "{{ greeting | default('Hi', true) }} {{ contact_name | default('Demo contact', true) }},\n\nThis is a synthetic preview for {{ company_name }} in {{ country }}. It illustrates the final angle in a configurable industrial workflow. The example demonstrates reusable templates, regional greetings, selection rules and a review step before any external action.\n\nNo message will be sent in the portfolio demo. All addresses and organizations shown here are fictional. You can inspect the rendered content alongside the local CRM timeline.\n\n{{ signoff | default('Best regards', true) }},\n{{ signature }}"
+    }
+  ]
+}

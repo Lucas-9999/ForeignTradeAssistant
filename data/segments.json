@@ -1,0 +1,144 @@
+{
+  "_description": "Segmentation config for cold-email matching. Industry groups, country groups, language overrides, and per-industry insight paragraphs used by the email template engine. Edit this file to adjust grouping - no code changes needed.",
+  "industry_groups": {
+    "automotive": {
+      "label": "Automotive & Transportation",
+      "priority": 1,
+      "match_keywords": ["automotive", "vehicle", "car parts", "car accessories", "truck parts", "motorcycle", "bicycle", "cycling", "scooter", "trailer", "auto parts", "auto accessories"]
+    },
+    "machinery": {
+      "label": "Machinery & Industrial",
+      "priority": 2,
+      "match_keywords": ["machinery", "machine", "industrial", "crane", "ball screw", "casting roller", "cnc", "hydraulic", "air knife", "strapping", "gearbox", "reducer", "motor", "pump", "valve", "bearing", "guide rail", "robot", "automation"]
+    },
+    "construction": {
+      "label": "Construction & Building",
+      "priority": 3,
+      "match_keywords": ["construction", "building", "structural", "architecture", "roofing", "engineering"]
+    },
+    "electronics": {
+      "label": "Electronics & Electrical",
+      "priority": 4,
+      "match_keywords": ["electronic", "electrical", "electric", "lighting", "semiconductor", "consumer", "telecom", "appliance", "game", "computer", "mobile"]
+    },
+    "new_energy": {
+      "label": "New Energy",
+      "priority": 5,
+      "match_keywords": ["solar", "photovoltaic", "energy", "battery", "wind"]
+    },
+    "medical": {
+      "label": "Medical & Healthcare",
+      "priority": 6,
+      "match_keywords": ["medical", "pharma", "hospital", "dental", "surgical", "disinfector", "healthcare"]
+    },
+    "hardware_furniture": {
+      "label": "Fasteners, Hardware & Furniture",
+      "priority": 7,
+      "match_keywords": ["fastener", "hardware", "screw", "bolt", "nut", "washer", "rivet", "furniture", "hinge", "lock", "nail", "anchor", "stud"]
+    },
+    "general": {
+      "label": "General",
+      "priority": 8,
+      "match_keywords": []
+    }
+  },
+  "low_relevance_keywords": [
+    "food", "beverage", "footwear", "shoes", "toy", "hobby", "ceramics", "porcelain",
+    "kitchenware", "tableware", "bags", "luggage", "leather", "holiday", "seasonal",
+    "gifts", "promotional", "watches", "clocks", "glass", "crafts", "plastic",
+    "sealing", "metal jar", "flooring", "textiles", "garments", "apparel", "cosmetics",
+    "perfume", "jewelry", "stationery", "foodstuff"
+  ],
+  "country_groups": {
+    "north_america": {
+      "label": "North America",
+      "greeting": "Hi",
+      "signoff": "Best regards",
+      "countries": ["United States", "USA", "U.S.A.", "US", "Canada"]
+    },
+    "europe": {
+      "label": "Europe",
+      "greeting": "Hello",
+      "signoff": "Best regards",
+      "countries": [
+        "United Kingdom", "UK", "Ireland", "Germany", "France", "Spain", "Italy",
+        "Netherlands", "Belgium", "Poland", "Sweden", "Norway", "Denmark", "Finland",
+        "Switzerland", "Austria", "Portugal", "Greece", "Czech Republic", "Czech Rep.",
+        "Romania", "Hungary", "Bulgaria", "Slovakia", "Slovenia", "Croatia",
+        "Croatia Rep.", "Lithuania", "Latvia", "Estonia", "Ukraine", "Russia",
+        "Belarus", "Serbia", "Serbia and Montenegro", "Bosnia and Herzegovina",
+        "North Macedonia", "Macedonia Rep.", "Albania", "Moldova", "Moldavia",
+        "Iceland", "Luxembourg", "Malta", "Cyprus", "Monaco", "San Marino",
+        "Gibraltar", "Andorra", "Liechtenstein"
+      ]
+    },
+    "northeast_asia": {
+      "label": "Northeast Asia",
+      "greeting": "Hello",
+      "signoff": "Best regards",
+      "countries": ["Japan", "South Korea", "Korea Rep.", "Taiwan", "Hong Kong", "Macau", "Mongolia"]
+    },
+    "oceania": {
+      "label": "Oceania",
+      "greeting": "Hi",
+      "signoff": "Best regards",
+      "countries": [
+        "Australia", "New Zealand", "Fiji", "Papua New Guinea", "Vanuatu", "Samoa",
+        "Tonga", "New Caledonia", "Solomon Islands", "Nauru", "Palau", "Micronesia"
+      ]
+    },
+    "southeast_asia": {
+      "label": "Southeast Asia",
+      "greeting": "Hello",
+      "signoff": "Best regards",
+      "countries": [
+        "Singapore", "Malaysia", "Thailand", "Vietnam", "Indonesia", "Philippines",
+        "Cambodia", "Laos", "Laos, PDR", "Myanmar", "Brunei"
+      ]
+    },
+    "middle_east": {
+      "label": "Middle East & North Africa",
+      "greeting": "Hello",
+      "signoff": "Best regards",
+      "countries": [
+        "United Arab Emirates", "UAE", "Saudi Arabia", "Israel", "Turkey", "Qatar",
+        "Kuwait", "Oman", "Jordan", "Egypt", "Bahrain", "Lebanon", "Syria", "Syrian",
+        "Iraq", "Iran", "Yemen", "Republic of Yemen", "Palestine", "Libya",
+        "Libyan Arab Jamahiriya", "Algeria", "Morocco", "Tunisia"
+      ]
+    },
+    "generic": {
+      "label": "Global (Other Markets)",
+      "greeting": "Hello",
+      "signoff": "Best regards",
+      "countries": []
+    }
+  },
+  "language_overrides": {
+    "Germany": {"greeting": "Hallo", "signoff": "Mit freundlichen Gr\u00fc\u00dfen"},
+    "Austria": {"greeting": "Hallo", "signoff": "Mit freundlichen Gr\u00fc\u00dfen"},
+    "Switzerland": {"greeting": "Hallo", "signoff": "Mit freundlichen Gr\u00fc\u00dfen"},
+    "France": {"greeting": "Bonjour", "signoff": "Cordialement"},
+    "Spain": {"greeting": "Hola", "signoff": "Un saludo"},
+    "Italy": {"greeting": "Buongiorno", "signoff": "Cordiali saluti"},
+    "Netherlands": {"greeting": "Hallo", "signoff": "Met vriendelijke groet"},
+    "Poland": {"greeting": "Dzie\u0144 dobry", "signoff": "Z powa\u017caniem"},
+    "Russia": {"greeting": "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435", "signoff": "\u0421 \u0443\u0432\u0430\u0436\u0435\u043d\u0438\u0435\u043c"},
+    "Turkey": {"greeting": "Merhaba", "signoff": "Sayg\u0131lar\u0131mla"},
+    "Japan": {"greeting": "\u304a\u4e16\u8a71\u306b\u306a\u3063\u3066\u304a\u308a\u307e\u3059", "signoff": "\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059"},
+    "South Korea": {"greeting": "\uc548\ub155\ud558\uc138\uc694", "signoff": "\uac10\uc0ac\ud569\ub2c8\ub2e4"},
+    "Korea Rep.": {"greeting": "\uc548\ub155\ud558\uc138\uc694", "signoff": "\uac10\uc0ac\ud569\ub2c8\ub2e4"},
+    "Portugal": {"greeting": "Ol\u00e1", "signoff": "Atenciosamente"},
+    "Brazil": {"greeting": "Ol\u00e1", "signoff": "Atenciosamente"}
+  },
+  "industry_insights": {
+    "automotive": "Across the automotive sector, buyers are consolidating supply around IATF16949-certified factories with full traceability. High-strength grades (10.9 and 12.9) with Dacromet or zinc-nickel finishes are the ones seeing the longest lead times.",
+    "machinery": "Machinery and equipment makers are tightening tolerances on standard and non-standard fasteners as production lines get more precise. Custom small-batch parts with short lead times are increasingly hard to source.",
+    "construction": "Construction suppliers are paying more attention to corrosion resistance and complete documentation on structural fasteners. Dacromet and zinc finishes with material certificates are becoming the baseline for export markets.",
+    "electronics": "Electronics and 3C assembly lines run on small precision fasteners (M1.6 to M6) where consistency matters more than price. Buyers increasingly ask for clean packaging and per-batch dimensional reports.",
+    "new_energy": "Solar and new-energy projects are driving demand for stainless and high-corrosion-resistance fasteners that hold up for decades outdoors. Traceable material certificates are now a standard requirement.",
+    "medical": "Medical automation and device makers prioritize precision, surface finish, and traceability on every batch of small fasteners. Documentation and consistent quality matter more than price per piece.",
+    "hardware_furniture": "Hardware distributors are watching inventory closely and prefer suppliers with broad standard ranges and fast dispatch. A full line card with stable quality lets distributors quote confidently.",
+    "general": "Industrial buyers are increasingly qualifying a second factory source for fasteners to protect against supply disruption. Consistent quality documentation and quick response times are what keep suppliers on the approved list."
+  }
+}

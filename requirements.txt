@@ -1,0 +1,44 @@
+# ═══════════════════════════════════════════════════════════
+# FTA — Foreign Trade Assistant Dependencies
+# ═══════════════════════════════════════════════════════════
+
+# Web Framework
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.27,<1.0
+
+# Email
+aiosmtplib>=3.0,<4.0
+jinja2>=3.1,<4.0
+email-validator>=2.1,<3.0
+dnspython>=2.4,<3.0
+imapclient>=3.0,<4.0
+
+# Web Scraping
+httpx>=0.26,<1.0
+beautifulsoup4>=4.12,<5.0
+lxml>=5.1,<6.0
+# scrapy>=2.11,<3.0       # Phase 2+: Engineering approach
+playwright>=1.40,<2.0   # JS-heavy sites (XunKeXing, Facebook)
+
+# Task Scheduling
+apscheduler>=3.10,<4.0
+
+# WhatsApp (Phase 3 — uncomment when needed)
+# twilio>=9.0,<10.0
+
+# Data (matching PriceGod pattern)
+pandas>=2.1,<3.0
+openpyxl>=3.1,<4.0
+
+# Configuration
+python-dotenv>=1.0,<2.0
+
+# Secret encryption (mailboxes password_enc — FTA_MAILBOX_ENC_KEY, M5/V8)
+cryptography>=41.0,<50.0
+
+# Streamlit UI (optional internal tool)
+streamlit>=1.28,<2.0
+
+# Dev / Testing
+pytest>=8.0,<9.0
+pytest-asyncio>=0.23,<1.0

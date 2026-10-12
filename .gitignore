@@ -1,0 +1,55 @@
+# Local pytest artifacts
+.pytest_cache/
+.test_tmp*/
+
+# Local credentials and developer-agent settings
+.env
+.env.*
+*.env
+*.env.*
+.claude/
+.codex/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Runtime logs (keep the directory marker only)
+logs/*
+!logs/.gitkeep
+
+# Local runtime data, browser profiles, and diagnostic probes
+data/*.db*
+data/backups/
+data/rollback_points/
+data/*_profile/
+data/*_token.json
+data/*_token_failure.png
+data/email_center_audit.jsonl
+data/private/
+config/local/
+outputs/
+uploads/
+backups/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.sql.gz
+*.dump
+*.bak
+*.log
+*.map
+frontend/dist/
+node_modules/
+.venv/
+.ruff_cache/
+probe_dir/
+probe_sub/
+probe_root.db
+
+# Public environment templates only
+!.env.example
+!.env.*.example
+
+# Synthetic demo runtime is generated locally, never published
+data/demo-runtime/

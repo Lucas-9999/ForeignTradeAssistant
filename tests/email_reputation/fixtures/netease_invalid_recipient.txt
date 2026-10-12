@@ -1,0 +1,4 @@
+Final-Recipient: rfc822; buyer@example.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp; 550 5.1.1 该用户不存在

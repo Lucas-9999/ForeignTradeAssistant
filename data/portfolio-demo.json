@@ -1,0 +1,101 @@
+{
+  "_description": "Fictional fixtures only. Timeline records represent simulations, never delivery evidence.",
+  "leads": [
+    {
+      "company_name": "Synthetic Components 01",
+      "contact_name": "Demo Contact 01",
+      "email": "lead01@portfolio.invalid",
+      "country": "Germany",
+      "industry": "Automotive",
+      "status": "new"
+    },
+    {
+      "company_name": "Synthetic Components 02",
+      "contact_name": "Demo Contact 02",
+      "email": "lead02@portfolio.invalid",
+      "country": "USA",
+      "industry": "Machinery",
+      "status": "new"
+    },
+    {
+      "company_name": "Synthetic Components 03",
+      "contact_name": "Demo Contact 03",
+      "email": "lead03@portfolio.invalid",
+      "country": "UK",
+      "industry": "Construction",
+      "status": "new"
+    },
+    {
+      "company_name": "Synthetic Components 04",
+      "contact_name": "Demo Contact 04",
+      "email": "lead04@portfolio.invalid",
+      "country": "Canada",
+      "industry": "Electronics",
+      "status": "new"
+    },
+    {
+      "company_name": "Synthetic Components 05",
+      "contact_name": "Demo Contact 05",
+      "email": "lead05@portfolio.invalid",
+      "country": "Australia",
+      "industry": "Medical",
+      "status": "contacted"
+    },
+    {
+      "company_name": "Synthetic Components 06",
+      "contact_name": "Demo Contact 06",
+      "email": "lead06@portfolio.invalid",
+      "country": "France",
+      "industry": "Hardware",
+      "status": "contacted"
+    },
+    {
+      "company_name": "Synthetic Components 07",
+      "contact_name": "Demo Contact 07",
+      "email": "lead07@portfolio.invalid",
+      "country": "Germany",
+      "industry": "Automotive",
+      "status": "contacted"
+    },
+    {
+      "company_name": "Synthetic Components 08",
+      "contact_name": "Demo Contact 08",
+      "email": "lead08@portfolio.invalid",
+      "country": "USA",
+      "industry": "Machinery",
+      "status": "replied"
+    },
+    {
+      "company_name": "Synthetic Components 09",
+      "contact_name": "Demo Contact 09",
+      "email": "lead09@portfolio.invalid",
+      "country": "UK",
+      "industry": "Construction",
+      "status": "replied"
+    },
+    {
+      "company_name": "Synthetic Components 10",
+      "contact_name": "Demo Contact 10",
+      "email": "lead10@portfolio.invalid",
+      "country": "Canada",
+      "industry": "Electronics",
+      "status": "replied"
+    },
+    {
+      "company_name": "Synthetic Components 11",
+      "contact_name": "Demo Contact 11",
+      "email": "lead11@portfolio.invalid",
+      "country": "Australia",
+      "industry": "Medical",
+      "status": "dead"
+    },
+    {
+      "company_name": "Synthetic Components 12",
+      "contact_name": "Demo Contact 12",
+      "email": "lead12@portfolio.invalid",
+      "country": "France",
+      "industry": "Hardware",
+      "status": "new"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "_description": "No live collection targets in the portfolio. Tests inject synthetic HTML and mock HTTP responses.",
+  "sites": []
+}
